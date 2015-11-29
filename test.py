@@ -6,10 +6,10 @@ try:
 except ImportError:
     print "Could not import metamind.api packages"
 
-# spi key in profile
+# api key in your profile, might need to change it to work
 set_api_key('Authorization: Basic wC5gH0A9hi37QAQA3i5oH045ofG1jNV07FhLQ1iwe5rmIJBtET')
 
-# need classifier id
+# need classifier id, classifier has to be public
 classifier = ClassificationModel(id='YOUR_CLASSIFIER_ID')
 
 # change urls to image urls for ingredients we trained for
